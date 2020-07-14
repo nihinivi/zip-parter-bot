@@ -15,7 +15,7 @@
       "description": "Your bot token string.",
       "value": ""
     },
-    "app_id": {
+    "api_id": {
       "description": "your app id",
       "value": ""
     },
