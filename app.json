@@ -19,3 +19,37 @@
   
   
 }
+{
+  "name": "python zip parter",
+  "description": "app to part zip contens to small parts with 30 item per part.",
+  "repository": "https://github.com/nihinivi/zip-parter-bot", 
+    "success_url": "https://github.com/nihinivi/zip-parter-bot",
+  "website": "https://github.com/nihinivi/zip-parter-bot",
+
+  "env": 
+   {
+    "TOKEN": {
+      "description": "Your Bot Token.","value":""
+      
+        },
+    "api_id": {
+      "description": "your app id","value":""
+        },
+    "api_hash": {
+      "description": "your api hash.","value":""
+        },
+  
+  }
+  
+  "addons": [],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }  
+  
+}
