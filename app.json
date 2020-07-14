@@ -1,0 +1,23 @@
+{
+  "name": "python zip parter",
+  "description": "app to part zip contens to small parts with 30 item per part.",
+  "keywords": ["python" ],
+  
+  "repository": "https://github.com/nihinivi/zip-parter-bot",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/welcome",
+  "env": {
+    "TOKEN": {
+      "description": "Your Bot Token."
+    },
+    "api_id": {
+      "description": "your app id"
+    },
+    "api_hash": {
+      "description": "your api hash."
+    },
+  }
+  
+  
+  
+}
