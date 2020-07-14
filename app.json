@@ -1,0 +1,38 @@
+{
+  "name": "zip parter",
+  "description": "Zip parter bot in telethon for telegram",
+  "keywords": [
+    "telegram",
+    "best",
+    "python"
+  ],
+  "success_url": "https://github.com/nihinivi/zip-parter-bot",
+  "website": "https://github.com/nihinivi/zip-parter-bot",
+  "repository": "https://github.com/nihinivi/zip-parter-bot",
+  "env": {
+
+    "TOKEN": {
+      "description": "Your bot token string.",
+      "value": ""
+    },
+    "app_id": {
+      "description": "your app id",
+      "value": ""
+    },
+    "api_hash": {
+      "description": "your app hash",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
