@@ -39,7 +39,7 @@
       "description": "your api hash.","value":""
         },
   
-  }
+  },
   
   "addons":[],
   "buildpacks": [{
