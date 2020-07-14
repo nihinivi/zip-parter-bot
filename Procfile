@@ -1,1 +1,1 @@
-worker: python3 fileparter.py
+worker: python3 fileparterbot.py
