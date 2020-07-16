@@ -18,7 +18,7 @@ async def zipper(filelist,name):
             zipMe.write(file, compress_type=ZIP_DEFLATED)
     
    
-def unzipper(my_dir,my_zip)
+async def unzipper(my_dir,my_zip)
     zip_file = ZipFile(my_zip, 'r')
     for files in zip_file.namelist():
         data = zip_file.read(files, my_dir)
@@ -35,7 +35,7 @@ async def hey(event):
     name = await bot.download_media(reply_message,"./")
     dir = str(uuid4())
     os.mkdir(dir)
-    unzipper(dir,name)
+    await unzipper(dir,name)
     files = list(absoluteFilePaths(dir))
     n = 30
     k = [files[i:i + n] for i in range(0, len(files), n)]  
